@@ -32,7 +32,7 @@
 
 ```
 bash
-git clone [repository-url]
+git clone git@github.com:jinchanz/ComfyUI_Notte.git
 ```
 2. 安装依赖
 
