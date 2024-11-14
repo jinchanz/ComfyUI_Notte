@@ -1,5 +1,5 @@
 import json
-
+from ..modules.predict import Predictor
 class Notte:
     """
     音频分析节点 - 处理音频并返回说话人数量、片段和语言信息
@@ -27,7 +27,6 @@ class Notte:
     CATEGORY = "audio"
 
     def process(self, audio_url, hf_token):
-        from modules.predict import Predictor
         
         try:
             predictor = Predictor()
